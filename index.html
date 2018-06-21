@@ -10,47 +10,60 @@
   </head>
   <body class="container">
 
-    <h1>Trivia Game</h1>
+  <h1>Trivia Game</h1>
 
-<h2 id="time-left">
-</h2>
+  <h2 id="time-left"></h2>
 
 <div class="row">
   <div class="col-lg-6">
-<ul>
-  <li>
-    <h3>How many letters are there in "JS"?</h3>
-    <input type="radio" name="question0" value="A">2<br>
-    <input type="radio" name="question0" value="B">1<br>
-    <input type="radio" name="question0" value="C">3<br>
-    <input type="radio" name="question0" value="D">4<br>
-  </li>
-  <li>
-    <h3>How many letters are there in "BMX"?</h3>
-    <input type="radio" name="question1" value="A">2<br>
-    <input type="radio" name="question1" value="B">1<br>
-    <input type="radio" name="question1" value="C">3<br>
-    <input type="radio" name="question1" value="D">4<br>
-  </li>
-  <li>
-    <h3>How many letters are there in "A"?</h3>
-    <input type="radio" name="question2" value="A">2<br>
-    <input type="radio" name="question2" value="B">1<br>
-    <input type="radio" name="question2" value="C">3<br>
-    <input type="radio" name="question2" value="D">4<br>
-  </li>
-</ul>
+    <ul>
+      <li>
+        <h3>1. What does HTML stand for?</h3>
+        <input type="radio" name="question0" value="A">Hyperlinks and Text Markup Language<br>
+        <input type="radio" name="question0" value="B">Home Tool Markup Language<br>
+        <input type="radio" name="question0" value="C">Hyper Text Markup Language<br>
+        <input type="radio" name="question0" value="D">Home To Many Libraries<br>
+      </li>
+      <li>
+      <h3>2. Which of the following is correct?</h3>
+      <input type="radio" name="question1" value="A">jQuery is a Bootstrap Library<br>
+      <input type="radio" name="question1" value="B">jQuery is a JSON Library<br>
+      <input type="radio" name="question1" value="C">jQuery is a JavaScript Library<br>
+      <input type="radio" name="question1" value="D">jQuery is a XML Library<br>
+    </li>
+    <li>
+      <h3>3. Which is the correct CSS syntax?</h3>
+      <input type="radio" name="question2" value="A">body:color=black;<br>
+      <input type="radio" name="question2" value="B">body {color: black;}<br>
+      <input type="radio" name="question2" value="C">{body:color=black;}<br>
+      <input type="radio" name="question2" value="D">{body;color:black;}<br>
+    </li>
+    <li>
+      <h3>4. Inside which HTML element do we put the JavaScript?</h3>
+      <input type="radio" name="question3" value="A">script<br>
+      <input type="radio" name="question3" value="B">link<br>
+      <input type="radio" name="question3" value="C">scripting<br>
+      <input type="radio" name="question3" value="D">meta<br>
+    </li>
+    <li>
+      <h3>5. The Bootstrap grid system is based on how many columns?</h3>
+      <input type="radio" name="question4" value="A">10<br>
+      <input type="radio" name="question4" value="B">22<br>
+      <input type="radio" name="question4" value="C">8<br>
+      <input type="radio" name="question4" value="D">12<br>
+    </li>
+  </ul>
+  </div>
+
+  <div class="col-lg-6">
+    <h4 id="results"></h4>
+  </div>
 </div>
 
-<div class="col-lg-6">
-  <h4 id="results"></h4>
-</div>
-</div>
+  <button id="submit">View Results</button>
 
-<button id="submit">View Results</button>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="javascript/game.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/game.js"></script>
 
 
   </body>

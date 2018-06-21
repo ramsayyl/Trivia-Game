@@ -10,12 +10,15 @@ h1 {
 
 ul {
   list-style-type: none;
+  padding: 15px;
 }
 
 li {
   display: inline;
+  padding: 5px;
 }
 
 #results {
   color: blue;
+  padding-top: 250px;
 }
