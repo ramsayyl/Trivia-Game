@@ -3,12 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
   </head>
-  <body>
+  <body class="container">
 
-<div id="time-left">
-</div>
+    <h1>Trivia Game</h1>
 
+<h2 id="time-left">
+</h2>
+
+<div class="row">
+  <div class="col-lg-6">
 <ul>
   <li>
     <h3>How many letters are there in "JS"?</h3>
@@ -32,6 +40,12 @@
     <input type="radio" name="question2" value="D">4<br>
   </li>
 </ul>
+</div>
+
+<div class="col-lg-6">
+  <h4 id="results"></h4>
+</div>
+</div>
 
 <button id="submit">View Results</button>
 
